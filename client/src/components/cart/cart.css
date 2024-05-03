@@ -1,0 +1,146 @@
+body{
+    background-color: #e7e7e7;
+}
+.cart_section{
+    position: relative;
+    display: flex;
+    top: 50px;
+    justify-content: center;
+    padding: 0 0 40px 0;
+    margin: 50px auto;
+
+}
+
+.cart_section .cart_left{
+    margin-right: 20px;
+    background-color: white;
+    width: 55%;
+    padding: 20px;
+}
+
+.cart_section .cart_left h1{
+    margin: 0;
+}
+
+.cart_section .cart_left p{
+    margin: 0;
+    color: #007185;
+    padding-top: 5px;
+}
+
+.cart_section .cart_left .price{
+    display: block;
+    text-align: right;
+    color: #565959!important;
+    font-size: 14px;
+    padding-right: 45px;
+
+}
+
+.cart_section .cart_left hr{
+    margin-top: 0;
+    border: 1px solid rgb(220, 212, 212);
+}
+
+.cart_section .cart_left .cart_product{
+    margin-top: 10px;
+    display: flex;
+}
+
+.cart_section .cart_left .cart_product .prod_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_section .cart_left .cart_product .prod_img img{
+    width: 50%;
+}
+
+.prod_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.prod_section img{
+    width: 10%;
+    padding-top: 2px;
+}
+
+.prod_description{
+    display: flex;
+    align-items: center;
+}
+
+.prod_description h3{
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.cart_product .price_num{
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.prod_section h3{
+    margin-top: 0
+}
+
+.prod_section .usually{
+    color: rgb(216, 146, 41);
+}
+
+.prod_section span{
+    font-size: 13px;
+    padding: 3px 0;
+}
+
+.cart_section .cart_right{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_section .cart_right img{
+    width: 100%;
+}
+
+.cart_section .cart_right .right_part{
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cart_section .cart_right .right_part span{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cart_section .cart_right .right_part h3{
+    margin-bottom: 0;
+}
+
+.cart_section .cart_right .right_part button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:#FFD814;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -5px rgba(0,0,0,.5);
+}
+
+.cart_section .cart_right .right_part button:hover{
+    background-color:#f3cc0a;
+}
+
+.cart_section .cart_right .right_part .emi{
+    border: 1px solid rgb(220, 212, 212);
+    padding: 10px;
+    margin-top: 20px;
+}

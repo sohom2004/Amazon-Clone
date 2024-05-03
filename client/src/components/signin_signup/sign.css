@@ -1,0 +1,83 @@
+.sign{
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+
+.sign-logo{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-logo a img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.sign .sign-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(220, 212, 212);
+    border-radius: 8px;
+    margin-bottom: 50px;
+    width: 25%;
+    padding: 30px 0;
+}
+
+.sign .sign-form form{
+    width: 75%;
+}
+
+.sign .sign-form form h2{
+    padding: 0;
+    margin: 0;
+}
+
+.sign .sign-form .form-data{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.sign .sign-form .form-data label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.sign .sign-form .form-data input{
+    border: 1px solid rgb(172, 165, 165);
+    border-radius: 3px;
+    height: 1.6rem;
+    padding: 3px;
+}
+
+.sign .sign-form button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 0 0 10px -5px rgba(0,0,0,.5);
+}
+
+.sign .sign-form button:hover{
+    color: white;
+    background-color: #c48839;
+}
+
+.sign .sign-form form hr{
+    border: 1px solid rgb(220, 212, 212);
+}
+
+.sign .sign-form form p{
+    font-size: 12px;
+}

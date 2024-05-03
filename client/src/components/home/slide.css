@@ -1,0 +1,51 @@
+.deals_day{
+    background-color: white;
+    margin: 20px 15px;
+    border-radius: 5px;
+}
+
+.products_deal{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.view_btn{
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    right: 50px;
+    height: 2.3rem;
+    width: 5.4rem;
+    background-color: #2874f0;
+    border: none;
+    border-radius: 5px;
+}
+
+.view_btn:hover{
+    background-color: #184a9a;
+}
+
+
+.product_slider{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product_img img{
+    height: 11rem;
+    width: 11rem;
+}
+
+.product_slider p{
+    margin: 5px 0;
+}
+
+.slide_class{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,223 @@
+header{
+    background-color: #131921;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav .left{
+    margin: auto;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav .left .address{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding: 10px 5px 10px 5px;
+}
+
+nav .left .address:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 5px 10px 5px;
+}
+
+nav .left .address .placeOutlined{
+    color: white;
+}
+
+nav .left .address div p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 10px;
+}
+
+nav .left .address div h5{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav .search{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+nav .search input{
+    height: 35px;
+    width: 715px;
+}
+
+nav .search input:focus{
+    outline: none;
+}
+
+
+nav .search .search-btn{
+    background-color: #febd69;
+    height: 39px;
+    width: 50px;
+    border: none;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav .search .search-btn:hover{
+    background-color: #c48839;
+}
+
+nav .search .search-btn .search-icon{
+    padding-top: 7px;
+}
+
+nav .search .category-dropdown{
+    margin: auto;
+    text-align: center;
+    height: 39px;
+    width: 50px;
+    border: none;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    color: gray;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav .search .category-dropdown:hover{
+    background-color: rgb(187, 185, 185);
+    color: black;
+}
+
+.navlogo{display: flex;
+    margin: auto;
+}
+
+.navlogo img{
+    width: 110px;
+    margin-top: 10px;
+}
+
+nav .right{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav .right .countrySelector{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px 5px;
+}
+
+nav .right .countrySelector:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+
+nav .right .countrySelector img{
+    width: 30px;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+nav .right .accounts-lists{
+    padding-left: 10px;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+}
+
+nav .right .accounts-lists:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 5px 10px 5px;
+}
+
+nav .right .accounts-lists div p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+nav .right .accounts-lists div h5{
+    margin: 0;
+    padding: 0;
+}
+
+nav .right .returns{
+    padding-left: 10px;
+    color: white;
+    padding: 10px 5px 10px 5px;
+}
+
+nav .right .returns:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 5px 10px 5px;
+}
+
+nav .right .returns div p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+nav .right .returns div h5{
+    margin: 0;
+    padding: 0;
+}
+
+nav .right .cart{
+    color: white;
+    padding-left: 10px;
+}
+
+nav .right .cart .cart_btn{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav .right .cart .cart_btn:hover{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cartlink{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,160 @@
+.back_btn{
+    width: 100%;
+    background-color: #37475A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 17px 0 17px 0;
+}
+
+.back_btn:hover{
+    background-color: #4b627d;
+}
+
+.back_btn a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer_subcontainer{
+    background-color: #232f3e;
+    padding: 15px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 75%;
+    padding: 20px 0 30px 0;
+}
+
+.mini_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.mini_container h4{
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.mini_container a{
+    padding: 3px 0 3px 0;
+    font-size: 13.5px;
+}
+
+.footer_mid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 0 20px 0;
+}
+
+.footer_mid .first{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+
+.footer_mid .first .nav_logo img{
+    height: 35px;
+    width: 80px;
+}
+
+.footer_mid .first .language_selector .formcontrol{
+    color: white;
+}
+
+.divider{
+    background-color: rgb(78, 76, 76);
+}
+
+.footer_mid .country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_mid .country ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.footer_mid .country ul li{
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+}
+
+.footer_bottom{
+    background-color: #131921;
+    padding: 20px 0 20px 0;
+}
+
+.footer_bottom .grid_links{
+    display: grid;
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 250px 250px 250px 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_bottom .grid_links .grid_element{
+    font-size: 12px;
+}
+
+.footer_bottom .grid_links .grid_element a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer_bottom .grid_links .grid_element a{
+    color: white;
+}
+
+.footer_bottom .grid_links .grid_element span{
+    color: gray;
+}
+
+.footer_bottom .grid_links .grid_element span:hover{
+    cursor: pointer;
+}
+
+.footer_bottom .copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_bottom .copyright ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.footer_bottom .copyright ul li{
+    color: white;
+    font-size: 12px;
+    padding: 10px 10px 0 10px;
+}
+
+.footer_bottom .copyright span{
+    color: white;
+    font-size: 12px;
+    padding: 0 10px 10px 10px;
+}

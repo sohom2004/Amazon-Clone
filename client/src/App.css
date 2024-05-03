@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sacramento&display=swap');
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer_part{
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+}

@@ -1,0 +1,24 @@
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px 0;
+}
+
+.options select{
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.options select:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #e7e7e7;
+}
+
+.options p{
+    font-size: 14px;
+    cursor: pointer;
+}
